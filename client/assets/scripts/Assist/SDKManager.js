@@ -4,7 +4,7 @@ var netEngine = require('netEngine');
 
 var SDKManager = new Object();
 
-SDKManager.oauthLoginServer = 'http://101.37.19.68:8888/';
+SDKManager.oauthLoginServer = 'http://127.0.0.1:8888/';
 SDKManager.appKey = 'AC69D4BA-8D3D-A803-AC63-7AF59492B8E5';
 SDKManager.appSecret = '4a1bf56812cce2daf60fb3a4beb9b004';
 SDKManager.privateKey = '6AAAC471C1E8EB8F10E1DD4DDA574D49';

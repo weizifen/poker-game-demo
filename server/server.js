@@ -43,6 +43,7 @@ wss.on('connection', function connection(ws) {
                     });
                 }
                 else if (type == 'register') {
+                    console.log('注册');
                     console.log('solve registerData ' + identifier);
                     theModule.handle(receivedData.id, receivedData.data, ws);
                 }

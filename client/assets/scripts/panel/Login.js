@@ -74,7 +74,7 @@ cc.Class({
     },
 
     onClickWeiXinLogin: function () {
-        hongshi.serverAddress = 'ws://101.37.19.68:8011';
+        hongshi.serverAddress = 'ws://127.0.0.1:8011';
         SDKManager.login();
     },
 
@@ -85,7 +85,7 @@ cc.Class({
         else {
             require('socket.io');
         }
-        var socket = io('http://101.37.19.68:8012');
+        var socket = io('http://127.0.0.1:8012');
 
         socket.on('connected', (msg)=>{
             if (msg != null && msg[0] == '"' && msg[msg.length-1] == '"') {

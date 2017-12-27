@@ -17,7 +17,7 @@ cc.Class({
     onClick_share_friend: function () {
         // 截屏 & 分享网页信息
         var share_id = 'icon';
-        var share_url = 'http://101.37.19.68/icon.png'; // icon图片地址
+        var share_url = 'http://127.0.0.1/icon.png'; // icon图片地址
         nativeLoader.loadNativeWithCallbackFilePath(share_id, share_url, (filepath)=>{
             console.log('share:filepath=' + filepath);
             if (filepath == null) {
@@ -41,7 +41,7 @@ cc.Class({
     onClick_share_pengyouquan: function () {
         // 截屏 & 分享网页信息
         var share_id = 'icon';
-        var share_url = 'http://101.37.19.68/icon.png'; // icon图片地址
+        var share_url = 'http://127.0.0.1/icon.png'; // icon图片地址
         nativeLoader.loadNativeWithCallbackFilePath(share_id, share_url, (filepath)=>{
             console.log('share:filepath=' + filepath);
             if (filepath == null) {

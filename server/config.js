@@ -8,10 +8,10 @@ module.exports = {
 		port: 8012,
 	},
     mysql: {
-        host: "localhost",
+        host: "117.48.205.125",
         port: 3306,
         user: "root",
-        password: "password",
+        password: "wei123456",
         database: "hongshi",
     },
 	

@@ -27,6 +27,7 @@ dbManager.insert = function (query, parameter, callBack, failCallBack) {
 dbManager.select = function (query, callBack, failCallBack) {
     // connection.connect();
     connection.query(query, (err, rows, fields)=>{
+        console.log(query)
         if (err) {
             console.error("error select");
             if (failCallBack != null) {
